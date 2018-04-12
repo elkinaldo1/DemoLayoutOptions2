@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DemoLayoutOptions"
+             x:Class="DemoLayoutOptions.MainPage">
+
+    <!--<StackLayout Orientation="Horizontal">
+        <Button Text="Boton"
+                HorizontalOptions="Start">
+        </Button>
+        <Button Text="Boton"
+                HorizontalOptions="Center">
+        </Button>
+        <Button Text="Boton"
+                HorizontalOptions="End">
+        </Button>
+    </StackLayout>-->
+    <!--<StackLayout>
+        <BoxView Color="DarkBlue"
+                 HeightRequest="1">
+        </BoxView>
+        <Button Text="StartAndExpand"
+                VerticalOptions="StartAndExpand">
+        </Button>
+        <BoxView Color="DarkBlue"
+                 HeightRequest="1">
+        </BoxView>
+        <Button Text="CenterAndExpand"
+                VerticalOptions="CenterAndExpand">
+        </Button>
+        <BoxView Color="DarkBlue"
+                 HeightRequest="1">
+        </BoxView>
+        <Button Text="EndAndExpand"
+                VerticalOptions="EndAndExpand">
+        </Button>
+        <BoxView Color="DarkBlue"
+                 HeightRequest="1">
+        </BoxView>
+        <Button Text="FillAndExpand"
+                VerticalOptions="FillAndExpand">
+        </Button>
+    </StackLayout>-->
+
+    <StackLayout Margin="20" BackgroundColor="red">
+        <StackLayout BackgroundColor="AntiqueWhite"
+                     Margin="30,100,2,10">
+            <Image Source="Layout.png"></Image>
+        </StackLayout>
+        <StackLayout BackgroundColor="Cornsilk"
+                     Padding="50">
+            <Image Source="Layout.png"></Image>
+        </StackLayout>
+    </StackLayout>
+
+    
+
+</ContentPage>
